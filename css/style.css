@@ -152,6 +152,15 @@ nav { display: none; }
     }
 }
 
+/*  My services Section */
+
+.my-services {
+    background-color: var(--clr-dark);
+    background-image: url(../img/services-bg.jpg)
+    color: var(--clr-light);
+
+}
+
 
 
 
