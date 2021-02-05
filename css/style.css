@@ -184,7 +184,7 @@ nav { display: none; }
 }
 
 @media (min-width: 800px) {
-    .my-services {
+    .services {
         display: flex;
         max-width: 1000px;
         margin: 0 auto;
