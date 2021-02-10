@@ -59,7 +59,34 @@ img {
 
 }
 
+/*  Buttons */
+
+.btn {
+   display: inline-block;
+   padding: .5em 2.5em;
+   background: var(--clr-accent);
+   color: var(--clr-dark);
+   text-decoration: none;
+   cursor: pointer;
+   font-size: .8rem;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: var(--fw-bold);
+   transition: transform 200ms ease-in-out;
+
+}
 strong { font-weight: var(--fw-bold) }
+
+:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px;
+}
+
+
+.btn:hover {
+    transform: scale(1.1)
+}
+
 
 /* Typography */
 
@@ -178,6 +205,10 @@ nav { display: none; }
 
 }
 
+.services {
+    margin-bottom: 4em;
+}
+
 .service {
     max-width: 500px;
     margin: 0 auto;
@@ -187,13 +218,17 @@ nav { display: none; }
     .services {
         display: flex;
         max-width: 1000px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     .service + .service {
         margin-left: 2em;
     }
 }
 
+.about-me {
+    max-width: 1000px;
+}
 
 
 
